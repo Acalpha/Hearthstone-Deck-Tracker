@@ -122,10 +122,11 @@ namespace Hearthstone_Deck_Tracker.Hearthstone
 
 			public static class Mage
 			{
-				public static List<string> All => new List<string> {Counterspell, Duplicate, Effigy, IceBarrier, IceBlock, ManaBind, MirrorEntity, PotionOfPolymorph, Spellbender, Vaporize};
+				public static List<string> All => new List<string> {Counterspell, Duplicate, Effigy, FrozenClone, IceBarrier, IceBlock, ManaBind, MirrorEntity, PotionOfPolymorph, Spellbender, Vaporize};
 				public static string Counterspell => HearthDb.CardIds.Collectible.Mage.Counterspell;
 				public static string Duplicate => HearthDb.CardIds.Collectible.Mage.Duplicate;
 				public static string Effigy => HearthDb.CardIds.Collectible.Mage.Effigy;
+				public static string FrozenClone => HearthDb.CardIds.Collectible.Mage.FrozenClone;
 				public static string IceBarrier => HearthDb.CardIds.Collectible.Mage.IceBarrier;
 				public static string IceBlock => HearthDb.CardIds.Collectible.Mage.IceBlock;
 				public static string ManaBind => HearthDb.CardIds.Collectible.Mage.ManaBind;
